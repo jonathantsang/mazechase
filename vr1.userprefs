@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoveTowardsPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlayerController.cs">
     <Files>
-      <File FileName="Assets\scripts\ScarySounds.cs" Line="38" Column="3" />
-      <File FileName="Assets\MoveTowardsPlayer.cs" Line="16" Column="36" />
+      <File FileName="Assets\scripts\MoveTowardsPlayer.cs" Line="38" Column="39" />
+      <File FileName="Assets\scripts\GameController.cs" Line="26" Column="3" />
+      <File FileName="Assets\scripts\MonsterScream.cs" Line="26" Column="40" />
+      <File FileName="Assets\scripts\PlayerController.cs" Line="42" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

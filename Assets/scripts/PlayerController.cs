@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
 	{
-		print (Input.GetAxis ("XboxV"));
-		print (Input.GetAxis ("XboxH"));
+		//print (Input.GetAxis ("XboxV"));
+		//print (Input.GetAxis ("XboxH"));
 		float vert = Input.GetAxis ("XboxV");
 		float horz = Input.GetAxis ("XboxH");
 		// get input data from keyboard or controller
@@ -40,11 +40,11 @@ public class PlayerController : MonoBehaviour
 			Vector3 position = transform.position;
 			position += cameraTransform.right * speed * Time.deltaTime;
 			transform.position = position;
-		} else if (Mathf.Abs(vert) > 0.3 && Mathf.Abs(vert) > 0.3){
+		} else if (Mathf.Abs(vert) > 0.15 && Mathf.Abs(vert) > 0.15){
 			Vector3 position = transform.position;
 			Vector3 angle = new Vector3(-horz, 0, vert);
 			print (angle);
-			position += angle * speed * Time.deltaTime;
+			position += angle * 3 * speed * Time.deltaTime;
 			transform.position = position;
 		}
     }

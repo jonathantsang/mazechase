@@ -93,14 +93,15 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
+     <Compile Include="Assets\scripts\bulletMovement.cs" />
      <Compile Include="Assets\scripts\collidePlayer.cs" />
      <Compile Include="Assets\scripts\escapemusic.cs" />
      <Compile Include="Assets\scripts\GameController.cs" />
-     <Compile Include="Assets\scripts\loppmusic.cs" />
      <Compile Include="Assets\scripts\MonsterScream.cs" />
      <Compile Include="Assets\scripts\MoveTowardsPlayer.cs" />
      <Compile Include="Assets\scripts\PlayerController.cs" />
      <Compile Include="Assets\scripts\ScarySounds.cs" />
+     <Compile Include="Assets\scripts\shootGun.cs" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
