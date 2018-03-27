@@ -40,7 +40,8 @@ public class PlayerController : MonoBehaviour
 			Vector3 position = transform.position;
 			position += cameraTransform.right * speed * Time.deltaTime;
 			transform.position = position;
-		} else if (Mathf.Abs(vert) > 0.15 && Mathf.Abs(vert) > 0.15){
+		}
+		if (Mathf.Abs(vert) > 0.15 && Mathf.Abs(vert) > 0.15){
 			Vector3 position = transform.position;
 			Vector3 angle = new Vector3(-horz, 0, vert);
 			print (angle);
